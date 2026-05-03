@@ -52,6 +52,7 @@
             // 
             // btnStop
             // 
+            this.btnStop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStop.Enabled = false;
             this.btnStop.FlatAppearance.BorderSize = 0;
             this.btnStop.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
@@ -66,6 +67,7 @@
             // 
             // btnPause
             // 
+            this.btnPause.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPause.Enabled = false;
             this.btnPause.FlatAppearance.BorderSize = 0;
             this.btnPause.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
@@ -80,6 +82,7 @@
             // 
             // btnPlay
             // 
+            this.btnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlay.Enabled = false;
             this.btnPlay.FlatAppearance.BorderSize = 0;
             this.btnPlay.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
@@ -94,6 +97,7 @@
             // 
             // btnBrowser
             // 
+            this.btnBrowser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBrowser.FlatAppearance.BorderSize = 0;
             this.btnBrowser.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
             this.btnBrowser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
