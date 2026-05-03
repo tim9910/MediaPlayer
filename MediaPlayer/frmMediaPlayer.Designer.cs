@@ -126,6 +126,7 @@
             this.Name = "frmMediaPlayer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "多媒體播放器";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMediaPlayer_FormClosing);
             this.palButton.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.wmpVideo)).EndInit();
             this.ResumeLayout(false);
